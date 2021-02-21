@@ -540,7 +540,11 @@ a:after {
   }
 
   .secondPage_second {
-    margin-top: 10px;
+    margin-top: 50px;
+  }
+
+  .secondPage_second h2 {
+    padding: 30px 0 0 0px;
   }
 
   .secondPage_second-text,
@@ -561,21 +565,6 @@ a:after {
     position: absolute;
     bottom: 0;
     z-index: 5;
-  }
-
-  #lottie_3 {
-    max-width: 70%;
-    max-height: 70%;
-  }
-
-  #lottie_4 {
-    max-width: 70%;
-    max-height: 70%;
-  }
-
-  #lottie_5 {
-    max-width: 70%;
-    max-height: 70%;
   }
 
   .slider__item img {
