@@ -254,7 +254,6 @@ a:after {
   margin-top: -140px;
   padding-top: 0;
   padding-bottom: 0;
-  z-index: 10;
 }
 
 .secondPage_second span,
@@ -564,7 +563,6 @@ a:after {
   #lottie_2 {
     position: absolute;
     bottom: 0;
-    z-index: 5;
   }
 
   .slider__item img {
