@@ -248,6 +248,7 @@ a:after {
 .secondPage_third,
 .secondPage_fourth {
   position: relative;
+  overflow: hidden;
   justify-content: space-evenly;
   align-items: center;
   margin-top: -140px;
@@ -366,6 +367,7 @@ a:after {
 }
 
 .fourthPage__wrapper {
+  overflow: hidden;
   padding-top: 120px;
   background: linear-gradient(#E3BDE5, #AF6480);
 }
@@ -375,6 +377,7 @@ a:after {
 }
 
 .slick-track {
+  overflow: hidden;
   display: flex;
   align-items: center;
   height: 520px;
@@ -383,9 +386,11 @@ a:after {
 .slick-list {
   overflow: hidden;
   height: 520px;
+  width: 100vw;
 }
 
 .slider {
+  overflow: hidden;
   position: relative;
   padding: 0;
   height: 520px;
@@ -496,7 +501,7 @@ a:after {
 
   .startPage img {
     margin-top: 10px;
-    margin-left: -30px;
+    padding: 0;
   }
 
   .startPage h2 {
@@ -556,6 +561,21 @@ a:after {
     position: absolute;
     bottom: 0;
     z-index: 5;
+  }
+
+  #lottie_3 {
+    max-width: 70%;
+    max-height: 70%;
+  }
+
+  #lottie_4 {
+    max-width: 70%;
+    max-height: 70%;
+  }
+
+  #lottie_5 {
+    max-width: 70%;
+    max-height: 70%;
   }
 
   .slider__item img {
